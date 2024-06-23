@@ -47,7 +47,7 @@
 		<form method="post" action="updateAction.jsp?bbsID=<%=bbsID %>">
 		    <h3><a href="main.jsp" class="main-btn">메인으로 돌아가기</a></h3>
 			<table> 
-			    <tr><td><h2>글쓰기</h2></td></tr>
+			    <tr><td><h2>글수정</h2></td></tr>
 			    <tr><td class="header"><strong>Title</strong></td></tr>
 			    <tr><td><input type="text" placeholder="글 제목" name="bbsTitle"></td></tr>
 			    <tr><td class="header"><strong>Comment</strong></td></tr>
