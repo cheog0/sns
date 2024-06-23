@@ -1,0 +1,80 @@
+html {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+body {
+	background-color: #ffffff;
+}
+table {
+    margin: auto;
+    outline: 4px #ffffff solid;
+}
+input[type="text"] {
+    border: 3.5px #343a40 solid;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+textarea {
+    border: 3.5px #343a40 solid;
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+}
+.header {
+    height: 30px;
+}
+input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border: 0;
+    outline: 3px #808080 solid;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #343a40;
+    color: #c0c0c0;
+}
+input[type="submit"]:active {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    outline: 1.5px #808080 solid;
+    padding-left: 10px;
+    background-color: rgb(68, 136, 244);
+}
+
+
+.main-btn {
+    float: right; /* Float the element to the right */
+    display: display;
+    padding: 10px 20px;
+    color: #000000; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.main-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.delete-btn {
+    float: right; /* 우측으로 이동 */
+    padding: 10px 20px; /* 패딩 설정 */
+    background-color: #ff0000; /* 배경색 설정 */
+    color: #ffffff; /* 글자색 설정 */
+    text-decoration: none; /* 밑줄 제거 */
+    border-radius: 5px; /* 둥근 모서리 설정 */
+    transition: background-color 0.3s ease; /* 배경색 변경 시 부드러운 전환 효과 */
+}
+
+.delete-btn:hover {
+    background-color: #cc0000; /* 마우스 호버 시 배경색 변경 */
+}

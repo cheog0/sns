@@ -1,0 +1,105 @@
+html {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  margin: 16px auto;
+  width: 360px;
+}
+
+label {
+  color: #2c2c2c;
+  display: block;
+  margin: 16px 0 8px;
+}
+
+input {
+  border: 1px solid #d1d1d1;
+  color: #ababab;
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 8px 0;
+  padding: 16px 24px;
+  width: 100%;
+}
+
+.login-title a {
+  text-decoration: none; /* Remove underline */
+  color: #343a40; /* Text color */
+  font-size: 36px; /* Font size */
+  font-weight: 700; /* Font weight */
+}
+
+.login-title a:focus,
+.login-title a:active {
+  color: #c0c0c0; /* Change text color on focus and active states */
+  outline: none; /* Remove default focus outline */
+}
+
+.login-title {
+  color: #4e4e4e;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 24px 0;
+  text-align: center;
+}
+input[type="submit"] {
+  background: #2c2c2c;
+  border: none;
+  color: #ffffff;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 24px 0;
+  padding: 16px;
+  width: 100%;
+  cursor: pointer; /* Ensure cursor changes to pointer on hover */
+  border-radius: 0.3em; /* Optional: Add border-radius for rounded corners */
+  text-transform: uppercase; /* Optional: Transform text to uppercase */
+  transition: background 0.3s ease; /* Optional: Smooth transition on background change */
+}
+
+input[type="submit"]:hover {
+  background: #0056b3;/* Change background color on hover */
+}
+
+input[type="submit"]:focus {
+  outline: none; /* Remove default focus outline */
+  background: #1a1a1a; /* Change background color on focus */
+}
+
+.Joinpage {
+  display: inline-block; /* Ensures it respects margins and paddings */
+  padding: 12px 24px; /* Adjust padding as needed */
+  background-color: #1a1a1a; /* Default background color */
+  color: #fff; /* Text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size */
+  font-weight: 600; /* Font weight */
+  text-align: center; /* Center align text */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.Joinpage:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+.Joinpage:focus {
+  outline: none; /* Remove default focus outline */
+  background-color: #1a1a1a; /* Change background color on focus */
+}
+
+
+
+
+
+
+
