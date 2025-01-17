@@ -9,7 +9,7 @@
 <title>JSP 게시판 웹 사이트</title>
 </head>
 	<body>
-		<form method="post" action = "joinAction.jsp">
+		<form method= "post" action = "joinAction.jsp">
 		      <h1 class="login-title">회원가입</h1>
 		      <div>
 		        <label for="userId">아이디</label>
