@@ -47,7 +47,7 @@
 				if (result == -1) {
 					PrintWriter script = response.getWriter();
 					script.println("<script>");
-					script.println("alert('글 삭제에 실패했습니다.')");
+					script.println("alert('글 삭제에 실패했습니다!')");
 					script.println("history.back()");
 					script.println("</script>");
 				} else {
